@@ -17,4 +17,7 @@ import javax.ejb.Local;
 public interface NewsBeanLocal
 {
     List<News> listAllNews();
+    News createNews(News news); //Prend un objet java et le sérialise afin de le stocker dans la base.
+
+    public News getNews(Long id);
 }

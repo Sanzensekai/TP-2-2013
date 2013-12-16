@@ -70,15 +70,15 @@ public class News implements Serializable { // Dans les entités on ne met pas d
     /**
      * @return the out_date
      */
-    public Date getOut_date() {
+    public Date getdate() {
         return date;
     }
 
     /**
      * @param out_date the out_date to set
      */
-    public void setOut_date(Date out_date) {
-        this.date = out_date;
+    public void setdate(Date date) {
+        this.date = date;
     }
 
     /**
